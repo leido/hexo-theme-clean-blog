@@ -6,6 +6,13 @@ Hexo implementation of [Clean Blog](http://blackrockdigital.github.io/startboots
 
 Clean blog is a full featured, responsive Hexo theme. [Demo here](http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/).
 
+## Notice
+Forked from https://github.com/klugjo/hexo-theme-clean-blog, Added Features:
+
+- Change Disqus to Duoshuo comments
+- Add TOC support
+- Add Total views of articles
+
 ## Features
 
 - Disqus and Facebook comments
@@ -26,7 +33,7 @@ Clean blog is a full featured, responsive Hexo theme. [Demo here](http://www.cod
 ## Installation
 
 ```
-$ git clone https://github.com/klugjo/hexo-theme-clean-blog.git themes/clean-blog
+$ git clone https://github.com/leido/hexo-theme-clean-blog themes/clean-blog
 ```
 
 Then update your blog's main `_config.yml` to set the theme to `clean-blog`:
@@ -50,7 +57,7 @@ menu:
   Home: /
   Archives: /archives
   Github:
-    url: https://github.com/klugjo/hexo-theme-clean-blog
+    url: https://github.com/leido/hexo-theme-clean-blog
     icon: github
 ```
 
@@ -132,7 +139,7 @@ Setup the links to your social pages in the theme's `_config.yml`. Links are in 
 # Social Accounts
 twitter_url:
 facebook_url:
-github_url: https://github.com/klugjo/hexo-theme-clean-blog
+github_url: https://github.com/leido/hexo-theme-clean-blog
 linkedin_url:
 mailto:
 ```

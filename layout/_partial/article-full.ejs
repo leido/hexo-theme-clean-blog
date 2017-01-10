@@ -45,9 +45,9 @@
                     <% if (item.tags && item.tags.length && item.categories && item.categories.length){ %>
                         <%- partial('article-categories', {item: item}) %>
                     <% } %>
+                    <span id="busuanzi_container_site_pv">Total Views:<span id="busuanzi_value_site_pv"></span></span>
                 </div>
             <% } %>
-
             <!-- Gallery -->
             <% if (item.photos && item.photos.length){ %>
                 <%- partial('gallery') %>
@@ -74,4 +74,15 @@
             <% } %>
         </div>
     </div>
+<% if (theme.toc){ %>
+<script>
+  var tocEx = function(el){
+    var toc = document.querySelector(el), content = toc.innerHTML;
+    content = content.replace('<!-- toc -->', '<div class="toc"><b>文章目录</b>').replace('<!-- tocstop -->', '</div>');
+    toc.innerHTML = content;
+  }('.entry');
+</script>
+<% } %>
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </article>

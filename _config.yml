@@ -2,15 +2,12 @@
 menu:
   Home: /
   Archives: /archives
-  Github:
-    url: https://github.com/klugjo/hexo-theme-clean-blog
-    icon: github
 
 # Title on top left of menu. Leave empty to use main blog title
-menu_title: Configurable Title
+menu_title: Blog
 
 # URL of the Home page image
-index_cover: http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg
+index_cover: https://raw.githubusercontent.com/leido/leido.github.io/master/images/cover.png
 
 # Default post title
 default_post_title: Untitled
@@ -19,6 +16,7 @@ default_post_title: Untitled
 comments:
   # Disqus comments
   disqus_shortname:
+  duoshuo_shortname: 4disland
   # Facebook comments
   facebook:
     appid:
@@ -35,10 +33,10 @@ addthis:
 favicon:
 
 # Social Accounts
-twitter_url:
-twitter_handle:
-facebook_url:
-github_url: https://github.com/klugjo/hexo-theme-clean-blog
-gitlab_url:
-linkedin_url:
-mailto:
+# twitter_url:
+# twitter_handle:
+# facebook_url:
+github_url: https://github.com/leido
+weibo_url: http://weibo.com/neon1
+# linkedin_url:
+# mailto: dileu12@outlook.com
